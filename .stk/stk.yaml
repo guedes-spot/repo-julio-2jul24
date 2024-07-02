@@ -1,0 +1,29 @@
+schema-version: v2
+kind: manifest
+metadata:
+  name: aplic-teste-juli2jul24
+  description: teste
+  starter: studio-jcgs/stack-plug-infra-sns@2.0.1/starter-app
+  stack-version-id: 01J0P65D3XMMHH1FW1C3MHRBBX
+  stack: stack-plug-infra-sns@2.0.1
+spec:
+  type: app
+  app-id: 01J1TCQA2ECH8FAFZB3TET56B9
+  plugins:
+    - name: studio-jcgs/stack-plug-infra-sns@2.0.1/plug-dummy01@1.0.1
+      alias: plug-dummy01-1719946418989
+      plugin-version-id: 01HVV464CQFAP3NHFY1TQJ1Z94
+      stack-version-id: 01J0P65D3XMMHH1FW1C3MHRBBX
+      type: app
+      inputs:
+        resource: Client
+        method: GET
+      inputs-envs: {}
+      connections:
+        generates: []
+        requires: []
+      links:
+        generates: []
+  global-inputs: {}
+  global-computed-inputs: {}
+  repository: https://github.com/guedes-spot/repo-julio-2jul24
