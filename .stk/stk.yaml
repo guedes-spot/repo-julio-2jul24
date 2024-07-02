@@ -8,6 +8,7 @@ metadata:
   stack: stack-plug-infra-sns@2.0.1
 spec:
   type: app
+  app-id: 01J1TCQA2ECH8FAFZB3TET56B9
   plugins:
     - name: studio-jcgs/stack-plug-infra-sns@2.0.1/plug-dummy01@1.0.1
       alias: plug-dummy01-1719946418989
